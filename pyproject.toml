@@ -1,0 +1,18 @@
+[project]
+name = "agency-request-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.20.0",
+    "fastapi>=0.156.4",
+    "httpx>=0.28.1",
+    "langchain-anthropic>=1.7.6",
+    "langchain-openai>=1.7.2",
+    "langgraph>=1.2.16",
+    "psycopg[binary]>=3.3.6",
+    "pydantic-settings>=2.16.1",
+    "sqlalchemy>=2.1.5",
+    "uvicorn[standard]>=0.54.0",
+]
